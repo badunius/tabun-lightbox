@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tabun Lightbox
 // @include      https://tabun.everypony.*
-// @version      0.1.5
+// @version      0.1.6
 // @description  limit images size to 50vh, adds lightbox
 // @author       badunius
 // @match        https://tampermonkey.net/index.php?version=4.8&ext=dhdg&updated=true
@@ -13,7 +13,7 @@
 
 
 const rule = [
-  '.text img { max-height: 50vh; max-width: 100%; width: auto; }',
+  '.text img { max-height: 50vh; }',
   '.text a img { max-height: initial; }',
   'img.full { max-height: 92vh; max-width: 92vw; cursor: zoom-out; }',
   'div.lightbox {position: fixed; background: #333a; width: 100vw; height: 100vh; top: 0; left: 0; z-index: 1000; display: grid; place-content: center; }',
