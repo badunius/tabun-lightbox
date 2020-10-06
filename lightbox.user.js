@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tabun Lightbox
 // @include      https://tabun.everypony.*
-// @version      0.1.4
+// @version      0.1.5
 // @description  limit images size to 50vh, adds lightbox
 // @author       badunius
 // @match        https://tampermonkey.net/index.php?version=4.8&ext=dhdg&updated=true
