@@ -13,7 +13,7 @@
 
 
 const rule = [
-  '.text img { max-height: 50vh; }',
+  '.text img { max-height: 50vh; width: auto; }',
   '.text a img { max-height: initial; }',
   'img.full { max-height: 92vh; max-width: 92vw; cursor: zoom-out; }',
   'div.lightbox {position: fixed; background: #333a; width: 100vw; height: 100vh; top: 0; left: 0; z-index: 1000; display: grid; place-content: center; }',
